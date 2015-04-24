@@ -23,5 +23,6 @@ exports.rules = {
 exports.routes = {
   search: require('./routes/search'),
   profile: require('./routes/profile'),
-  things: require('./routes/things')
+  things: require('./routes/things'),
+  categories: require('./routes/categories')
 };

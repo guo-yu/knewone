@@ -7,6 +7,7 @@
     "example-search": "DEBUG=knewone,knewone:* node examples/search.js",
     "example-profile": "DEBUG=knewone,knewone:* node examples/profile.js",
     "example-things": "DEBUG=knewone,knewone:* node examples/things.js",
+    "example-categories": "DEBUG=knewone,knewone:* node examples/categories.js",
     "test": "DEBUG=knewone,knewone:*,sdk:* node_modules/.bin/mocha tests/*.js"
   },
   "repository": {

@@ -1,6 +1,8 @@
-## ![](https://knewone.com/assets/logos/11-8f4ba2aaddab3d04461bf92fd92d554e.png) KnewOne ![NPM version](https://img.shields.io/npm/v/knewone.svg?style=flat) 
+## KnewOne ![NPM version](https://img.shields.io/npm/v/knewone.svg?style=flat) 
 
-KnewOne SDK in Node.js
+a KnewOne SDK in Node.js
+
+![](https://knewone.com/assets/logos/11-8f4ba2aaddab3d04461bf92fd92d554e.png)
 
 ### Installation
 ```bash
