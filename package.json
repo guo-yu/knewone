@@ -4,7 +4,8 @@
   "description": "knewone SDK in node.js",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=knewone,knewone:* node_modules/.bin/mocha tests/*.js"
+    "example": "DEBUG=knewone,knewone:* node examples/search.js",
+    "test": "DEBUG=knewone,knewone:*,sdk:* node_modules/.bin/mocha tests/*.js"
   },
   "repository": {
     "type": "git",
