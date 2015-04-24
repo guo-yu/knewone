@@ -2,7 +2,7 @@ var cheerio = require('cheerio');
 var debug = require('debug')('knewone');
 
 module.exports = {
-  url: '/things?page={{page|default(1)}}',
+  url: '{{url|default("/things")}}?page={{page|default(1)}}',
   callback: function(err, res, html, next) {
     if (err || res.statusCode !== 200)
       return next(err || new Error('Network error: ' + res.statusCode), html);
@@ -27,8 +27,9 @@ module.exports = {
 
       if ($info.length) {
         baby.fanciers = $info.find('.fanciers_count').text()
-          // Must signined.
-          // baby.id = $info.find('.add_to_list').attr('data-thing-id')
+        
+        // Must signined.
+        // baby.id = $info.find('.add_to_list').attr('data-thing-id')
       }
 
       results.push(baby)

@@ -8,6 +8,7 @@
     "example-profile": "DEBUG=knewone,knewone:* node examples/profile.js",
     "example-things": "DEBUG=knewone,knewone:* node examples/things.js",
     "example-categories": "DEBUG=knewone,knewone:* node examples/categories.js",
+    "example-spider": "DEBUG=knewone,knewone:* node examples/spider.js",
     "test": "DEBUG=knewone,knewone:*,sdk:* node_modules/.bin/mocha tests/*.js"
   },
   "repository": {
