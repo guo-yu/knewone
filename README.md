@@ -10,6 +10,7 @@ $ npm install knewone
 ```
 
 ### Example
+For more examples, checkout `./examples` or run `npm run example-<name>`, which name you could find in `package.json`.
 ```js
 var KnewOne = require('knewone');
 
@@ -20,6 +21,13 @@ KnewOne.search({
     return console.error(err);
 });
 ```
+
+### API
+
+#### knewone#search([{keyword},]callback)
+#### knewone#profile([{userId},]callback)
+#### knewone#things([url,]callback)
+#### knewone#categories(callback)
 
 ### Contributing
 - Fork this repo
