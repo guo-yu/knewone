@@ -1,6 +1,6 @@
-## knewone ![NPM version](https://img.shields.io/npm/v/knewone.svg?style=flat) 
+## ![](https://knewone.com/assets/logos/11-8f4ba2aaddab3d04461bf92fd92d554e.png) KnewOne ![NPM version](https://img.shields.io/npm/v/knewone.svg?style=flat) 
 
-knewone SDK in node.js
+KnewOne SDK in Node.js
 
 ### Installation
 ```bash
@@ -9,11 +9,15 @@ $ npm install knewone
 
 ### Example
 ```js
-var knewone = require('knewone');
-```
+var KnewOne = require('knewone');
 
-### API
-check this file: `index.js`
+KnewOne.search({
+  keyword: 'watch'
+}, function(err, results) {
+  if (err)
+    return console.error(err);
+});
+```
 
 ### Contributing
 - Fork this repo
